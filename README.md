@@ -21,6 +21,8 @@ screenshots/    各题运行结果截图
 | 4.3 | 泛型 | `StorageBox.java` | `q4-3.png` |
 | 4.4 | 手写动态数组（扩容与移位） | `MyArrayList.java` | `q4-4.png` |
 | 4.5 | 设计模式（单例 / 简单工厂 / 建造者） | `LogisticsConfig.java`、`VehicleFactory.java`、`LogisticsOrder.java`、`PatternDemo.java` | `q4-5.png` |
+| 5 | 异常体系（自定义异常、异常链、多重catch） | `InsufficientFundsException.java`、`SystemMaintenanceException.java`、`PaymentProcessor.java`、`PaymentService.java`、`ExceptionDemo.java` | `q5.png` |
+| 6 | 集合框架（List/Set/Map、排序去重分组） | `Order.java`、`OrderAnalyzer.java`、`CollectionDemo.java` | `q6.png` |
 
 ## 运行方式
 
