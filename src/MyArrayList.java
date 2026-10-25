@@ -60,7 +60,7 @@ public class MyArrayList<T> {
 
         System.out.println("获取索引[2]的元素：" + list.get(2));
 
-        list.remove(1);      
+        list.remove(1);
         System.out.println("验证移位，此时索引[1]的元素变为了：" + list.get(1));
     }
 }

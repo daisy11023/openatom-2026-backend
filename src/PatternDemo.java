@@ -10,7 +10,6 @@ public class PatternDemo {
 
         System.out.println();
         System.out.println("========== Task2 简单工厂 ==========");
-        // 这里没有 new Truck / new Drone，只给工厂一个字符串
         TransportVehicle v = VehicleFactory.createVehicle("Drone");
 
         if (v != null) {
@@ -23,7 +22,6 @@ public class PatternDemo {
 
         System.out.println();
         System.out.println("========== Task3 建造者模式 ==========");
-        // 全程没有 new LogisticsOrder(...)，先生成 Builder，链式配完再 build
         LogisticsOrder order = new LogisticsOrder.Builder("OD-999")
                 .sender("Alice")
                 .receiver("Bob")
